@@ -29,13 +29,6 @@ layer_names = net.getLayerNames()
 output_layers = [layer_names[i - 1] for i in net.getUnconnectedOutLayers()]
 ```
 
-### Define labels 
-It has a list of the 80 labels that the YOLO model was trained on.
-
-```python 
-labels = ["person", "bicycle", "car", "motorbike", "aeroplane", "bus", "train", "truck", "boat", "traffic light", ... ]
-```
-
 ### Get user input image
 It uses a file dialog to get an input image selected by the user.
 
